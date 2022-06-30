@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+.container, .adcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.content {
+  width: 300px;
+  padding: 8px 32px;
+  border-radius: 16px;
+  text-align: left;
+  font-size: 1.5rem;
+  box-shadow: 4px 4px 4px 4px rgba(0,0,0,.1);
+  
+}
+
+.content h3 {
+  text-align: left;
+  color: blue;
+}
+
+.content h3 .dash {
+  font-size: 2rem;
+  color: lightGray;
+}
+
+.ad {
+  text-align: center;
+  margin: 64px 0;
+  padding: 64px 5%;
+  background-color: blue;
+  color: white;
+}
+
+.adcontent {
+  width: 300px;
+  padding: 32px 32px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.ad .container {
+  padding-top: 64px;
+}
+
+.fa-checker {
+  color: darkBlue;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 64px;
+}
+
+  .adcontent:nth-child(3) {
+  background: white;
+  box-shadow: 4px 4px 4px 4px white;
+  color: black;
+}
+
+.adcontent:nth-child(3) .fa-checker{
+  color: blue;
+}
+
+.how {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.how-right, .how-left{
+  width: 150px;
+}
+
+.how-right p, .how-right h3 {
+  text-align: left;
+}
+
+.how-left p, .how-left h3 {
+  text-align: right;
+}
+
+.cl-blue {
+  color: blue;
+}
+
+.pr-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
