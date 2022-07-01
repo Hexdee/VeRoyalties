@@ -1,19 +1,32 @@
-.qna {
+#qna {
   max-width: 600px;
-  padding: 0 32px;
-  border: 2px solid blue;
+  padding: 8px 32px;
   border-radius: 11px;
-  margin: 2%;
+  margin: 16px 2%;
   text-align: left;
   font-size: 1rem;
+   box-shadow: 4px 4px 4px 4px rgba(0,0,0,.1);
 }
 
-.qna h3 {
+.border-blue {
+  border: 2px solid blue;
+}
+
+.drop-down {
+  float: right;
+}
+
+.drop-down .fas {
+  color: blue;
+  font-size: 34px;
+}
+
+#qna h3 {
   text-align: left;
 }
 
 @media (min-width: 48em) {
-  .qna {
-    margin: auto;
+  #qna {
+    margin: 16px  auto;
   }
 }

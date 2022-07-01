@@ -4,8 +4,11 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import Header from '../misc/Header'
 import Gift from '../misc/Gift'
+import Property from '../misc/Property'
 import QnA from '../misc/QnA'
 import vrmobile from "../../images/vrmobile.png";
+import faq from "../../datas/faq";
+import properties from "../../datas/properties";
 
 const Home = () => {
     return (
@@ -108,6 +111,17 @@ const Home = () => {
               <h3>Among our properties already financed</h3>
               <h3 className="cl-blue">View All</h3>
             </div>
+            <div id="properties">
+              {properties.map((property) => <Property property={property}/>)}
+            </div>
+            <h3>Your most frequently asked questions</h3>
+            <p className="center">
+              Based on your feedback, we try to answer your questions and expectations.
+            </p>
+            {faq.map((q, i) => {
+              return <QnA n={i+1} q={q}/>
+            })}
+            <Gift/>
         </React.Fragment>
     )
 }

@@ -13,9 +13,9 @@ const Header = () => {
                     <h1>Accessible to All</h1>
                     <p>NFTs & Web3 for transparency, authenticity and sustainability
                     </p>
-                    <Link to="/MarketPlace" className="action">
+                    <a href="#properties" className="action">
                       See Our Properties
-                    </Link>
+                    </a>
                 </div>
             </header>
         </React.Fragment>
