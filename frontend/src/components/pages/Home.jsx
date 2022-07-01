@@ -3,6 +3,8 @@ import "./Home.css"
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import Header from '../misc/Header'
+import Gift from '../misc/Gift'
+import QnA from '../misc/QnA'
 import vrmobile from "../../images/vrmobile.png";
 
 const Home = () => {

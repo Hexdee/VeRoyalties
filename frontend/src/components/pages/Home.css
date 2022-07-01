@@ -95,5 +95,16 @@ h1, h2, h3 {
 .pr-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 8px 16px;
+}
+
+.pr-header h3:nth-child(1) {
+  flex: 3;
+  text-align: left;
+}
+
+.pr-header h3:nth-child(2) {
+  flex: 1;
+  text-align: right;
 }

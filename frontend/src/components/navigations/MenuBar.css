@@ -31,12 +31,12 @@
 
 .header li button {
   display: block;
-  padding: 8px 16px;
-  margin-top: 12px;
+  padding: 16px 32px;
+  margin-top: 8px;
   background-color: blue;
   color: white;
   border: none;
-  border-radius: 8px;
+  border-radius: 16px;
 }
   
 .header li a:hover,

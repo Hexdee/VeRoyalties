@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom"
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import './Footer.css'
 
@@ -39,19 +40,19 @@ const Footer= () => {
             <div className="socials">
               <ul className="social">
                     <li>
-                        <a href="https://www.facebook.com"><i className="fa fa-facebook social-i"></i></a>
+                        <a href="https://www.facebook.com"><i className="fab fa-facebook-f social-i"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com"><i className="fa fa-instagram social-i"></i></a>
+                        <a href="https://www.instagram.com"><i className="fab fa-instagram social-i"></i></a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/VeRoyalties"><i className="fa fa-twitter social-i"></i></a>
+                        <a href="https://twitter.com/VeRoyalties"><i className="fab fa-twitter social-i"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com"><i className="fa fa-linkedin social-i"></i></a>
+                        <a href="https://www.linkedin.com"><i className="fab fa-linkedin-in social-i"></i></a>
                     </li>
                     <li>
-                        <a href="https://discord.gg/7nSF6DUkJA"><i className="fa fa-discord social-i"></i></a>
+                        <a href="https://discord.gg/7nSF6DUkJA"><i className="fab fa-discord social-i"></i></a>
                     </li>
                 </ul>
             </div>
