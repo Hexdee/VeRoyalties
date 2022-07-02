@@ -34,8 +34,9 @@ const Home = () => {
                 <h3>
                   <span className="dash">- </span>  03
                 </h3>
-                <div className="arc"></div>
+                
                 <p>You receive your rental return each month.</p>
+                <div className="arc"></div>
               </div>
               <div className="content">
                 <h3>
@@ -53,28 +54,28 @@ const Home = () => {
 
               <div className="adcontainer">
               <div className="adcontent">
-                <i className="fas fa-circle-check fa-checker"/>
+                <i className="fas fa-check fa-checker"/>
                 <h3>
                   Profitability
                 </h3>
                 <p>We will try to base this on an average of 7%.</p>
               </div>
               <div className="adcontent">
-                <i className="fas fa-circle-check fa-checker"/>
+                <i className="fas fa-check fa-checker"/>
                 <h3>
                   Liquidity
                 </h3>
                 <p>You buy and sell your NFTs whenever you want.</p>
               </div>
               <div className="adcontent">
-                <i className="fas fa-circle-check fa-checker"/>
+                <i className="fas fa-check fa-checker"/>
                 <h3>
                   No hidden fee
                 </h3>
                 <p>No entry, exit or capital gains fees.</p>
               </div>
               <div className="adcontent">
-                <i className="fas fa-circle-check fa-checker"/>
+                <i className="fas fa-check fa-checker"/>
                 <h3>
                   No management
                 </h3>

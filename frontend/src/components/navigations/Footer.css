@@ -1,3 +1,8 @@
+:root {
+  --blue: #006EFF;
+  --darkBlue: #12417E;
+}
+
 .footer {
     background: black;
     color: #fff;
