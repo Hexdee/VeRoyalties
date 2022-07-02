@@ -8,9 +8,11 @@
 }
 .button {
   color: blue;
+  border: none;
   background-color: white;
   padding: 16px 32px;
   font-weight: bold;
+  margin: 24px;
 }
 
 .gift {
@@ -22,4 +24,22 @@
   margin-left: -17.5vw;
   margin-top: 24px;
   margin-bottom: -12px;
+}
+
+@media (min-width: 650px) {
+  .gift {
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding: 64px;
+  }
+  .text {
+    width: 300px;
+  }
+  .building {
+    width: 300px;
+    margin: 0;
+    margin-right: -90px;
+
+  }
 }

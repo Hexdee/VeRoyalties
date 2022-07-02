@@ -34,6 +34,7 @@ const Home = () => {
                 <h3>
                   <span className="dash">- </span>  03
                 </h3>
+                <div className="quater-circle"></div>
                 <p>You receive your rental return each month.</p>
               </div>
               <div className="content">
@@ -94,7 +95,6 @@ const Home = () => {
                 </h3>
                 <p>You can now buy NFTs against the property in question.</p>
               </div>
-              <img src={vrmobile} alt="veroyalties mobile" style={{width:"400px", height:"450px"}}/>
               <div className="how-right">
                 <h3>
                   <span className="cl-blue">3.</span> A building is selected 
@@ -106,12 +106,13 @@ const Home = () => {
                 </h3>
                 <p>When you decide, you can put your NFT up for sale, otherwise take advantage of the passive income.</p>
               </div>
+              <img src={vrmobile} alt="veroyalties mobile" style={{width:"400px", height:"450px"}}/>
             </div>
             <div className="pr-header">
-              <h3>Among our properties already financed</h3>
+              <h3 id="properties">Among our properties already financed</h3>
               <h3 className="cl-blue">View All</h3>
             </div>
-            <div id="properties">
+            <div className="properties">
               {properties.map((property) => <Property property={property}/>)}
             </div>
             <h3>Your most frequently asked questions</h3>

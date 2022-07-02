@@ -20,23 +20,25 @@
     list-style: none;
     overflow: hidden;
     background-color: transparent;
+    text-align: center;
 }
-  
+
 .header li a {
     display: block;
     padding: 20px 20px;
     text-decoration: none;
     color: blue;
+    font-weight: bold;
 }
 
 .header li button {
-  display: block;
   padding: 16px 32px;
   margin-top: 8px;
   background-color: blue;
   color: white;
   border: none;
-  border-radius: 16px;
+  border-radius: 10px;
+  font-weight: bold;
 }
   
 .header li a:hover,
@@ -133,7 +135,11 @@
     }
     
     .header li a {
-      padding: 20px 30px;
+      padding: 20px 15px;
+    }
+
+    .header li button {
+        margin-top: 15px;
     }
 
     .header .menu {

@@ -25,7 +25,10 @@ h1, h2, h3 {
   border-radius: 16px;
   text-align: left;
   font-size: 1.5rem;
-  box-shadow: 4px 4px 4px 4px rgba(0,0,0,.1);
+}
+
+.content:nth-child(3) {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, .1);
 }
 
 .content h3 {
@@ -76,21 +79,28 @@ h1, h2, h3 {
 
 .how {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
 }
 
 .how-right, .how-left{
-  width: 150px;
+  width: 100%;
+  padding: 16px 32px;
 }
 
-.how-right p, .how-right h3 {
+.how-left h3, .how-right h3 {
+  text-align: left;
+}
+
+/* .how-right p, .how-right h3 {
   text-align: left;
 }
 
 .how-left p, .how-left h3 {
   text-align: right;
-}
+} */
 
 .cl-blue {
   color: blue;
@@ -113,9 +123,29 @@ h1, h2, h3 {
   text-align: right;
 }
 
-#properties {
+.properties {
   margin: 16px;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 64px;
+}
+
+@media (min-width: 768px) {
+  .how {
+    flex-direction: row;
+  }
+
+  .how-left, .how-right {
+    width: 150px;
+    padding: 0;
+  }
+
+  .how-left, .how-left h3 {
+    text-align: right;
+  }
+
+  .how-right {
+    order: +1;
+  }
 }

@@ -8,7 +8,7 @@ const Footer= () => {
     return (
         <footer className="footer">
           <div className="top">
-            <div className="top-right">
+            <div className="top-left">
               <h3 className="cl-blue">VeRoyalties</h3>
               <p>The real estate investment that uses blockchain to revolutionise the sector from as little as €10.
               </p>
@@ -32,7 +32,7 @@ const Footer= () => {
               </ul>
               </div>
             </div>
-            <div className="top-left">
+            <div className="top-right">
             </div>
           </div>
           <div className="bottom">
