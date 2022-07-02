@@ -1,3 +1,8 @@
+:root {
+  --blue: #006EFF;
+  --darkBlue: #12417E;
+}
+
 .nav-wrapper {
     margin: auto;
     max-width: 1126px;
@@ -27,14 +32,14 @@
     display: block;
     padding: 20px 20px;
     text-decoration: none;
-    color: blue;
+    color: var(--blue);
     font-weight: bold;
 }
 
 .header li button {
   padding: 16px 32px;
   margin-top: 8px;
-  background-color: blue;
+  background-color: var(--blue);
   color: white;
   border: none;
   border-radius: 10px;
@@ -53,7 +58,7 @@
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
-    color: blue;
+    color: var(--blue);
 }
   
 /* menu */
@@ -84,7 +89,7 @@
   
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-    background: #333;
+    background: black;
     content: '';
     display: block;
     height: 100%;

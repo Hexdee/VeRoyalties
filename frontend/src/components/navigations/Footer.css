@@ -40,7 +40,7 @@
 }
 
 .social-i {
-  background-color: blue;
+  background-color: var(--blue);
   margin-left: -16px;
   width: 32px;
   padding: 8px;
