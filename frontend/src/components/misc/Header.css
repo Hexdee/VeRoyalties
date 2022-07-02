@@ -1,3 +1,8 @@
+:root {
+  --blue: #006EFF;
+  --darkBlue: #12417E;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -36,7 +41,7 @@ header a{
   display: inline-block;
   margin: 16px;
   padding: 16px 20px;
-  background-color: blue;
+  background-color: var(--blue);
   border-radius: 16px;
   text-decoration: none;
 }

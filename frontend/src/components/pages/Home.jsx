@@ -34,7 +34,7 @@ const Home = () => {
                 <h3>
                   <span className="dash">- </span>  03
                 </h3>
-                <div className="quater-circle"></div>
+                <div className="arc"></div>
                 <p>You receive your rental return each month.</p>
               </div>
               <div className="content">

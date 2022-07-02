@@ -1,3 +1,8 @@
+:root {
+  --blue: #006EFF;
+  --darkBlue: #12417E;
+}
+
 .property {
   max-width: 380px;
   border-radius: 8px;
@@ -44,7 +49,7 @@
 }
 
 .profit {
-  color: blue;
+  color: var(--blue);
 }
 
 .profitability {
@@ -57,5 +62,5 @@
   color: white;
   font-weight: bold;
   border-radius: 8px;
-  background-color: blue;
+  background-color: var(--blue);
 }

@@ -1,5 +1,10 @@
+:root {
+  --blue: #006EFF;
+  --darkBlue: #12417E;
+}
+
 .gift {
-  background-color: blue;
+  background-color: var(--blue);
   margin: 32px auto;
   border-radius: 12px;
   padding: 64px 15vw;
@@ -7,8 +12,8 @@
   color: white;
 }
 .button {
-  color: blue;
-  border: none;
+  color: var(--blue);
+  border: 1px solid var(--blue);
   background-color: white;
   padding: 16px 32px;
   font-weight: bold;
