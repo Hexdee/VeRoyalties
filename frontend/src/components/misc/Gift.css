@@ -42,7 +42,8 @@
     width: 300px;
   }
   .building {
-    width: 300px;
+    min-width: 300px;
+    max-width: 450px;
     margin: 0;
     margin-right: -90px;
 

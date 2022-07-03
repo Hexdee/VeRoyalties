@@ -7,7 +7,7 @@ import Gift from '../misc/Gift'
 import Property from '../misc/Property'
 import QnA from '../misc/QnA'
 import vrmobile from "../../images/vrmobile.png";
-import faq from "../../datas/faq";
+import faq from "../../datas/faqs/faq";
 import properties from "../../datas/properties";
 
 const Home = () => {
@@ -107,7 +107,7 @@ const Home = () => {
                 </h3>
                 <p>When you decide, you can put your NFT up for sale, otherwise take advantage of the passive income.</p>
               </div>
-              <img src={vrmobile} alt="veroyalties mobile" style={{width:"400px", height:"450px"}}/>
+              <img src={vrmobile} className="vrmobile" alt="veroyalties mobile" style={{width:"400px", height:"450px"}}/>
             </div>
             <div className="pr-header">
               <h3 id="properties">Among our properties already financed</h3>
@@ -120,9 +120,11 @@ const Home = () => {
             <p className="center">
               Based on your feedback, we try to answer your questions and expectations.
             </p>
+            <div id='faq'>
             {faq.map((q, i) => {
               return <QnA n={i+1} q={q}/>
             })}
+            </div>
             <Gift/>
         </React.Fragment>
     )

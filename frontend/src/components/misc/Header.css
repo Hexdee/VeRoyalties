@@ -9,9 +9,9 @@
 
 header{
     color: Black;
-    background: #37387a;
-    background-image: url('../../images/white.jpg');
-    min-height: 70vh;
+    background: white;
+    background-image: url('../../images/header-mobile.png');
+    min-height: 80vh;
     padding-top: 20vh;
     text-align: center;
     position: relative;
@@ -19,7 +19,7 @@ header{
     overflow: hidden;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background-size: contain; /* Resize the background image to cover the entire container */
 }
   
 header h1{
@@ -44,4 +44,11 @@ header a{
   background-color: var(--blue);
   border-radius: 16px;
   text-decoration: none;
+}
+
+@media (min-width: 48em) {
+  header {
+    background-image: url('../../images/header.png');
+    background-size: cover;
+  }
 }

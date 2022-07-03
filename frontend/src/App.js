@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom'
 import Layout from './layout/Layout'
 import Home from './components/pages/Home'
-import AboutUs from './components/pages/AboutUs'
+import About from './components/pages/About'
 import ContactUs from './components/pages/ContactUs'
 
 import './App.css';
@@ -17,7 +17,7 @@ function App() {
       <Router>
         <Layout>
           <Routes>
-            <Route path='/AboutUs' element={<AboutUs/>}></Route>
+            <Route path='/About' element={<About/>}></Route>
             <Route path='/ContactUs' element={<ContactUs/>}></Route>
             <Route path='/' element={<Home/>}></Route>
           </Routes>

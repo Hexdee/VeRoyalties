@@ -5,7 +5,7 @@
 
 .nav-wrapper {
     margin: auto;
-    max-width: 1126px;
+    /* max-width: 1126px; */
     padding: 10px;
 }
 
@@ -15,7 +15,7 @@
     /*box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);*/
     position: fixed;
     width: 100%;
-    padding: 0 10%;
+    padding: 0 5%;
     z-index: 3;
 }
   
@@ -144,6 +144,7 @@
     }
 
     .header li button {
+        margin-left: 72px;
         margin-top: 15px;
     }
 

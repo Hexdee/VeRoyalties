@@ -104,6 +104,10 @@ h1, h2, h3 {
   background-color: var(--blue);
 }
 
+.vrmobile {
+  margin: auto;
+}
+
 .how {
   display: flex;
   flex-direction: column;
@@ -151,6 +155,10 @@ h1, h2, h3 {
 }
 
 @media (min-width: 768px) {
+  .vrmobile {
+    margin: 0;
+  }
+
   .how {
     flex-direction: row;
   }

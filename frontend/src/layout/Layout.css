@@ -2,13 +2,15 @@
     box-sizing: border-box;
 }
 
-
-.content-container {
-    margin: 2.5rem auto 2.5rem auto;
-    max-width: 1126px;
-    min-height: 50vh;
-    padding: 10px;
+.page-heading {
+	background-color: black;
+	color: white;
+	height: 264px;
+	width: 100vw;
+	margin: 80px 0;
+	padding-top: 110px;
 }
+
 
 /*Contact us*/
 tr, td {
