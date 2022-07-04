@@ -16,9 +16,11 @@ const QnA = ({n, q}) => {
     return (
         <React.Fragment>
           <div id="qna" className={border}>
-            <h3>
-              {n}. {q.question}
-              <span className="drop-down" onClick={toggleAnswer}>
+	    <div className="question">
+	      <h3>
+                {n}. {q.question}
+	      </h3>
+              <div className="drop-down" onClick={toggleAnswer}>
                 {showAnswer ? 
                 <i 
                   className="fas fa-angle-down"
@@ -27,8 +29,8 @@ const QnA = ({n, q}) => {
                   className="fas fa-angle-right "
                 />
                 }
-              </span>
-            </h3>
+              </div>
+            </div>
             {showAnswer && <p>
                 {q.answer}
               </p>

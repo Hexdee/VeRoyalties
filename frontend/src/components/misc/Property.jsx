@@ -6,7 +6,7 @@ const Property = ({property}) => {
         <React.Fragment>
           <div className="property">
             <div className="property-image">
-              <img src={property.image} alt="property image"/>
+              <img src={property.image} alt="property"/>
             </div>
             <div className="property-details">
               <div className="property-details-2">

@@ -1,23 +1,7 @@
 const legalQ = [
   {
-    question: "Lorem ipsum lorem ipsum ?",
-    answer: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
-  },
-  {
-    question: "Lorem ipsum lorem ipsum ?",
-    answer: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
-  },
-  {
-    question: "Lorem ipsum lorem ipsum ?",
-    answer: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
-  },
-  {
-    question: "Lorem ipsum lorem ipsum ?",
-    answer: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
-  },
-  {
-    question: "Lorem ipsum lorem ipsum",
-    answer: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    question: "What accounting evidence will I receive as an investor?",
+    answer: "We will provide the income assignment contract, which can be downloaded from the property sheet."
   }
 ]
 

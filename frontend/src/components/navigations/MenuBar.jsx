@@ -12,8 +12,8 @@ const MenuBar = () => {
 
                 <ul className="menu">
                     <li><a href="/About">About</a></li>
-                    <li><a href="#">MarketPlace</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="/MarketPlace">MarketPlace</a></li>
+                    <li><a href="/FAQ">FAQ</a></li>
                     <li><button>Connect</button></li>                
                 </ul>
             </div>

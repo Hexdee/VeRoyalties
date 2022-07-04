@@ -5,9 +5,10 @@
 
 #qna {
   max-width: 600px;
+  width: 98%;
   padding: 8px 32px;
   border-radius: 11px;
-  margin: 16px 10%;
+  margin: 16px 1%;
   text-align: left;
   font-size: 1rem;
   box-shadow: 4px 4px 4px 4px rgba(0,0,0,.1);
@@ -17,16 +18,19 @@
   border: 2px solid var(--blue);
 }
 
-.drop-down {
-  float: right;
-}
-
 .drop-down .fas {
   color: var(--blue);
   font-size: 34px;
+  padding-top: 16px;
 }
 
-#qna h3 {
+.question {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;  
+}
+
+.question h3 {
   text-align: left;
 }
 

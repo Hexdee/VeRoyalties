@@ -11,8 +11,11 @@ header{
     color: Black;
     background: white;
     background-image: url('../../images/header-mobile.png');
-    min-height: 80vh;
-    padding-top: 20vh;
+    height: 80vh;
+    max-height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     position: relative;
     z-index: 1;

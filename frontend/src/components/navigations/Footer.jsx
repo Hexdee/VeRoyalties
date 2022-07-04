@@ -17,7 +17,7 @@ const Footer= () => {
               <div className="top-middle-left">
               <h3>Sitemap</h3>
               <ul>
-                <li><Link to="/AboutUs">About</Link></li>
+                <li><Link to="/About">About</Link></li>
                 <li><Link to="/MarketPlace">MarketPlace</Link></li>
                 <li><Link to="/FAQ">FAQ</Link></li>
                 <li><Link to="/Blogs">Blogs</Link></li>
@@ -27,7 +27,7 @@ const Footer= () => {
               <h3>Informations</h3>
               <ul>
                 <li><a href="https://veroyalties.gitbook.io/whitepaper">Whitepaper</a></li>
-                <li><a href="#">Legal Notice</a></li>
+                <li><a href="/FAQ">Legal Notice</a></li>
                 <li><a href="/FAQ">Privacy Policy</a></li>
               </ul>
               </div>
