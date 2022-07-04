@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Home.css"
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
 import Header from '../misc/Header'
 import Gift from '../misc/Gift'
 import Property from '../misc/Property'
@@ -111,7 +110,7 @@ const Home = () => {
             </div>
             <div className="pr-header">
               <h3 id="properties">Among our properties already financed</h3>
-              <h3 className="cl-blue">View All</h3>
+              <h3 className="cl-blue"><a href='/MarketPlace'>View All</a></h3>
             </div>
             <div className="properties">
               {properties.map((property) => <Property property={property}/>)}

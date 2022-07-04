@@ -146,6 +146,14 @@ h1, h2, h3 {
   text-align: right;
 }
 
+.pr-header a {
+  text-decoration: none;
+}
+
+.pr-header a:visited {
+  color: var(--blue);
+}
+
 .properties {
   margin: 16px;
   display: flex;
