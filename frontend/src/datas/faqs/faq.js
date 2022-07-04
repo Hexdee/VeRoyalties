@@ -21,6 +21,11 @@ const faq = [
   {
     question: "Lorem ipsum lorem ipsum ?",
     answer: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+  },
+  {
+    question: "Are transactions on the platform secure?",
+
+    answer: "VeRoyalties uses the most advanced technical means to ensure the confidentiality and security of transactions on the platform. To manage your payment requests, VeRoyalties uses the VeChain blockchain to create smart contracts and manage the secondary market."
   }
 ]
 
