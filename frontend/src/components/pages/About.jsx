@@ -7,7 +7,7 @@ const About = () => {
     return (
         <React.Fragment>
             <section className="about">
-                <h2 className='page-heading'>About Us</h2>
+                <h1 className='page-heading'>About Us</h1>
                 <div className="about-top">
                     <div className='about-top-1'> 
                         <h3> How does VeRoyalies work?</h3>
