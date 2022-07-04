@@ -15,7 +15,7 @@ const About = () => {
                 <h1 className='page-heading'>FAQ</h1>
 	    	<div>
 	    	  <h2>General Information</h2>
-	          {how.map((how, i) => <QnA n={i} q={how} />)}
+	          {how.map((how, i) => <QnA n={i+1} q={how} />)}
 	    	  <h2>Marketplace</h2>
         	  {marketPlace.map((m, i) => <QnA n={i+1} q={m} />)}
 	          <h2>Property Management</h2>
