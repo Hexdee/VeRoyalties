@@ -43,6 +43,7 @@
   border: none;
   border-radius: 10px;
   font-weight: bold;
+  cursor: pointer;
 }
   
 .header li a:hover,
@@ -53,13 +54,13 @@
 .header .logo {
     display: block;
     float: left;
-    font: normal 2em 'Cookie';
+    font: normal 2em Jost;
     padding: 10px 20px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 900;
     color: var(--blue);
 }
-  
+
 /* menu */
 .header .menu {
     clear: both;

@@ -21,15 +21,15 @@ h1, h2, h3 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  /*gap: 8px;*/
 }
 
 .content {
-  width: 300px;
+  width: 280px;
   padding: 8px 32px;
   border-radius: 16px;
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .content:nth-child(3) {
@@ -63,13 +63,13 @@ h1, h2, h3 {
 .ad {
   text-align: center;
   margin: 64px 0;
-  padding: 64px 5%;
+  padding: 64px 5px;
   background-color: var(--blue);
   color: white;
 }
 
 .adcontent {
-  width: 300px;
+  width: 280px;
   padding: 32px 32px;
   text-align: center;
   font-size: 1.5rem;

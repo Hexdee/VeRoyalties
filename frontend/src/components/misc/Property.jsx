@@ -21,7 +21,7 @@ const Property = ({property}) => {
               </div>
               <div className="property-details-1">
                 <p>Funded by {property.investors} investors</p>
-                <button className="invest-button">Invest</button>
+                <button className="invest-button">Details</button>
               </div>
             </div>
           </div>

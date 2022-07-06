@@ -22,6 +22,7 @@
   color: var(--blue);
   font-size: 34px;
   padding-top: 16px;
+  cursor: pointer;
 }
 
 .question {
