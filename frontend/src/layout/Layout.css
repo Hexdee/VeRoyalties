@@ -8,7 +8,16 @@
 }
 
 .main-content {
-  min-height: 80vh;
+  min-height: 100vh;
+}
+
+.coming-soon {
+	width: 90vw;
+	margin: 32px auto;
+	height: 40vw;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .not-found {
