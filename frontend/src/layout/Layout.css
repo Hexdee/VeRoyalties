@@ -6,6 +6,18 @@
   min-height: 80vh;
 }
 
+.not-found {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	gap: 100px;
+}
+
+.not-found p {
+	font-weight: bold;
+	align-self: center;
+}
+
 .page-heading {
 	background-color: black;
 	color: white;
