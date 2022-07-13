@@ -10,7 +10,7 @@
 	height: 80vh;
 	display: flex;
 	flex-direction: column;
-	gap: 100px;
+	gap: 50px;
 }
 
 .not-found p {
