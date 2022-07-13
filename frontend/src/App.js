@@ -11,6 +11,7 @@ import FAQ from './components/pages/FAQ';
 import MarketPlace from './components/pages/MarketPlace';
 
 import './App.css';
+import SingleProperty from './components/pages/SingleProperty';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path='/About' element={<About/>}></Route>
             <Route path='/FAQ' element={<FAQ/>}></Route>
             <Route path='/MarketPlace' element={<MarketPlace/>}></Route>
+            <Route path='/property' element={<SingleProperty/>}></Route>
             <Route path='/' element={<Home/>}></Route>
           </Routes>
         </Layout>
