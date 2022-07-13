@@ -13,8 +13,8 @@ export default function SingleProperty() {
     setProperty(
       properties.find((p) => p.id == id)
     )
-	  console.log(property);
-  }, [id]);
+    window.scrollTo(0, 0)
+  }, [property, id]);
 
   return (
   property ?

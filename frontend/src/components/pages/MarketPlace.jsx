@@ -2,8 +2,13 @@ import React from 'react'
 import "./About.css";
 import Property from '../misc/Property';
 import properties from "../../datas/properties"
+import { useEffect } from 'react';
 
 const MarketPlace = () => {
+
+  useEffect(() => {
+        window.scrollTo(0, 0)
+    })
     return (
         <React.Fragment>
             <section className="about">
@@ -15,8 +20,6 @@ const MarketPlace = () => {
                   </div>
                   <div className="properties">
                   {properties.map((property) => <Property property={property}/>)}
-                    {properties.map((property) => <Property property={property}/>)}
-                    {properties.map((property) => <Property property={property}/>)}
                   </div>
                 </div>
             </section>

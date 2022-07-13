@@ -22,7 +22,7 @@ const Property = ({property}) => {
               </div>
               <div className="property-details-1">
                 <p>Funded by {property.investors} investors</p>
-	        <Link to="/property">
+	        <Link to={`/property/${property.id}`}>
                   <button className="invest-button">
 	    	    Details
 	    	  </button>

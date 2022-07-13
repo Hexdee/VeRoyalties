@@ -2,8 +2,13 @@ import React from 'react'
 import "./About.css";
 import Gift from '../misc/Gift';
 import about_img from "../../images/about-image.png"
+import { useEffect } from 'react';
 
 const About = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    })
     return (
         <React.Fragment>
             <section className="about">

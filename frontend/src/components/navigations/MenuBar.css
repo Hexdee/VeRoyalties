@@ -38,12 +38,7 @@
 
 .header li button {
   padding: 16px 32px;
-  background-color: var(--blue);
-  color: white;
-  border: none;
   border-radius: 10px;
-  font-weight: bold;
-  cursor: pointer;
 }
   
 .header li a:hover,

@@ -1,5 +1,6 @@
 :root {
-  --blue: background: #006EFF;
+  --blue: #006EFF;
+  --darkBlue: #12417E;
 }
 
 body {
@@ -14,4 +15,32 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.cl-blue {
+  color: var(--blue);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.cl-dblue {
+  color: var(--darkBlue);
+}
+
+.bg-dblue {
+  background-color: var(--darkBlue)
+}
+
+.button {
+    background-color: var(--blue);
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.button:hover {
+  background-color: var(--darkBlue);
+  color: white;
 }

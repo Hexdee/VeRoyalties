@@ -3,13 +3,18 @@ import "./Home.css"
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Header from '../misc/Header'
 import Gift from '../misc/Gift'
-import Property from '../misc/Property'
+// import Property from '../misc/Property'
 import QnA from '../misc/QnA'
 import vrmobile from "../../images/vrmobile.png";
 import faq from "../../datas/faqs/faq";
-import properties from "../../datas/properties";
+// import properties from "../../datas/properties";
+import { useEffect } from 'react';
 
 const Home = () => {
+
+  useEffect(() => {
+        window.scrollTo(0, 0)
+    })
     return (
         <React.Fragment>
             <Header />
@@ -108,13 +113,13 @@ const Home = () => {
               </div>
               <img src={vrmobile} className="vrmobile" alt="veroyalties mobile" style={{width:"400px", height:"450px"}}/>
             </div>
-            <div className="pr-header">
+            {/* <div className="pr-header">
               <h3 id="properties">Among our properties already financed</h3>
               <h3 className="cl-blue"><a href='/MarketPlace'>View All</a></h3>
             </div>
             <div className="properties">
               {properties.map((property) => <Property property={property}/>)}
-            </div>
+            </div> */}
             <h3>Your most frequently asked questions</h3>
             <p className="center">
               Based on your feedback, we try to answer your questions and expectations.

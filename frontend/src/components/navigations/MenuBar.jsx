@@ -21,7 +21,7 @@ const MenuBar = () => {
                     <li><a href="/About">About</a></li>
                     <li><a href="/MarketPlace">MarketPlace</a></li>
                     <li><a href="/FAQ">FAQ</a></li>
-                    <li><button>Connect</button></li>                
+                    <li><button className='button'>Connect</button></li>                
                 </ul>
             </div>
         </nav>

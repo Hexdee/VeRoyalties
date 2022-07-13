@@ -49,6 +49,10 @@ header a{
   text-decoration: none;
 }
 
+.action:hover {
+  background-color: var(--darkBlue);
+}
+
 @media (min-width: 48em) {
   header {
     background-image: url('../../images/header.png');

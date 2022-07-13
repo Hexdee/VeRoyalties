@@ -1,6 +1,11 @@
 import React from 'react'
+import { useEffect } from 'react';
 
 const NotFound = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    })
     return (
         <React.Fragment>
             <section className="not-found">

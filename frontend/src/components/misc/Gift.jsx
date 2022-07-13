@@ -12,7 +12,7 @@ const Gift = () => {
                 Please join our group where we can talk about the various current and future properties. In addition, there will be prizes to be won.
               </p>
               <a href=" https://discord.gg/7nSF6DUkJA">
-                <button className="button">
+                <button className="gift-button">
                   Join the discord
                 </button>
               </a>

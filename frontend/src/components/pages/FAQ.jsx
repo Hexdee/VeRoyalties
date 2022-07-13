@@ -7,8 +7,13 @@ import accounting from "../../datas/faqs/accounting.js";
 import financial from "../../datas/faqs/financial.js";
 import legal from "../../datas/faqs/legal.js";
 import QnA from "../misc/QnA";
+import { useEffect } from 'react';
 
 const About = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    })
     return (
         <React.Fragment>
             <section className="faq">

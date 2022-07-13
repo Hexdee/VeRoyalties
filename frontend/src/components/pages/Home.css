@@ -183,4 +183,8 @@ h1, h2, h3 {
   .how-right {
     order: +1;
   }
+
+  .pr-header {
+    margin: 0 32px;
+  }
 }
