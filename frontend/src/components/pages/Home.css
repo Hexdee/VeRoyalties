@@ -93,13 +93,13 @@ h1, h2, h3 {
   align-items: center;
 }
 
-.adcontent:nth-child(3) {
+.adcontent:nth-child(4) {
   background: white;
-  box-shadow: 4px 4px 4px 4px white;
+  box-shadow: 4px 4px 8px 10px white;
   color: black;
 }
 
-.adcontent:nth-child(3) .fa-checker{
+.adcontent:nth-child(4) .fa-checker{
   color: white;
   background-color: var(--blue);
 }
