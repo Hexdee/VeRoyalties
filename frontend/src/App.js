@@ -23,7 +23,7 @@ function App() {
             <Route path='/About' element={<About/>}></Route>
             <Route path='/FAQ' element={<FAQ/>}></Route>
             <Route path='/MarketPlace' element={<MarketPlace/>}></Route>
-            <Route path='/property' element={<SingleProperty/>}></Route>
+            <Route path='/property/:id' element={<SingleProperty/>}></Route>
             <Route path='/' element={<Home/>}></Route>
 	    <Route path = '*' element={<NotFound/>} />
           </Routes>

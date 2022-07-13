@@ -73,13 +73,13 @@ const ImageCarousel = ({ images }) => {
 
   return (
     <div className="carousel-container">
-      <div className="selected-image" style={{ backgroundImage: `url(${selectedImage?.url})` }}/>
+      <div className="selected-image" style={{ backgroundImage: `url(${selectedImage})` }}/>
       <div className="carousel-images">
         {images &&
             images.map((image, idx) => (
               <div
                 onClick={() => handleSelectedImageChange(idx)}
-                style={{ backgroundImage: `url(${image.url})` }}
+                style={{ backgroundImage: `url(${image})` }}
                 key={image.id}
                 className={`carousel-image ${
                   selectedImageIndex === idx && "carousel-image-selected"

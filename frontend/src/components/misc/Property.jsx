@@ -1,12 +1,13 @@
 import React from 'react'
 import './Property.css'
+import {Link} from "react-router-dom"
 
 const Property = ({property}) => {
     return (
         <React.Fragment>
           <div className="property">
             <div className="property-image">
-              <img src={property.image} alt="property"/>
+              <img src={property.images[0]} alt="property"/>
             </div>
             <div className="property-details">
               <div className="property-details-2">
@@ -21,7 +22,11 @@ const Property = ({property}) => {
               </div>
               <div className="property-details-1">
                 <p>Funded by {property.investors} investors</p>
-                <button className="invest-button">Details</button>
+	        <Link to="/property">
+                  <button className="invest-button">
+	    	    Details
+	    	  </button>
+		</Link>
               </div>
             </div>
           </div>
